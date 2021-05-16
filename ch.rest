@@ -1,0 +1,19 @@
+post https://rbds-attendance.herokuapp.com/user/login
+Content-Type: application/json
+
+{
+    "email":"",
+    "password":""
+}
+###
+
+post https://rbds-attendance.herokuapp.com/attendance/startSession
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IiIsInVzZXJJZCI6IjYwOWQyYmI4ZDBjYWQwMDAyMjE2ODQ4OCIsImlhdCI6MTYyMTE0NDE2MCwiZXhwIjoxNjIxMTQ3NzYwfQ.U-L67Kf45uCEvOUXVzHyT3QkXZHfMfOBGNC6VATzjug
+
+
+###
+post https://rbds-attendance.herokuapp.com/attendance/endSession
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IiIsInVzZXJJZCI6IjYwOWQyYmI4ZDBjYWQwMDAyMjE2ODQ4OCIsImlhdCI6MTYyMTE0MDY2MiwiZXhwIjoxNjIxMTQ0MjYyfQ.c6x_bz_bRapAAu8yyWpyOuTL8uTkw-ya1alOXRzy_aU
+
+
